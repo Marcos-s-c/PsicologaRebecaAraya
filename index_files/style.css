@@ -3052,9 +3052,9 @@ body.home4 .modalbox-wrapper .close-animatedModal:after {
     overflow: hidden;
     background: #fbbd41;
 }
-#scroll-top:after {
+/* #scroll-top:after {
     content: "\f106";
     font-family: 'Fontawesome';
     font-size: 20px;
     color: #fff;
-}
+} */
