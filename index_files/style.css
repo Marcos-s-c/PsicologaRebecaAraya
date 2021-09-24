@@ -1126,13 +1126,20 @@ body.slide-menu-dark .header #mainnav .menu li a:hover {
     border-bottom-left-radius: 105px;
 }
 .banner-section.s1 {
-    padding: 100px 0px 150px;
+    padding: 100px 0px 500px;
     background-image: url(../images/section/landing2.png);
     background-position: center;
     background-size: cover;
     background-position: center bottom;
     background-repeat: no-repeat;
     position: relative;
+}
+
+@media only screen and (max-width:1600px){
+    .banner-section.s1{
+        padding: 100px 0px 180px;
+    }
+
 }
 .banner-section.s1 .content-text .title {
     -moz-background-clip: padding;
