@@ -1137,10 +1137,27 @@ body.slide-menu-dark .header #mainnav .menu li a:hover {
 
 @media only screen and (max-width:1770px){
     .banner-section.s1{
-        padding: 100px 0px 180px;
+        padding: 100px 0px 300px;
     }
 
 }
+
+@media only screen and (max-width:1680px){
+    .banner-section.s1{
+        padding: 0px 0px 330px;
+    }
+
+}
+
+@media only screen and (max-width:1560px){
+    .banner-section.s1{
+        padding: 0px 0px 240px;
+    }
+
+}
+
+
+
 .banner-section.s1 .content-text .title {
     -moz-background-clip: padding;
     -webkit-background-clip: padding;

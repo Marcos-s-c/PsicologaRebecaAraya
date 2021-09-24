@@ -110,7 +110,7 @@
     }
 } 
 
-@media only screen and (max-width: 1366px) {
+@media only screen and (max-width: 1390px) {
     .flat-case-study.s1 .background-left {
         display: none;
     }
@@ -121,7 +121,7 @@
         display: none;
     }
     .banner-section.s1 {
-        padding: 200px 0 400px;
+        padding: 200px 0px 400px;
     }
     .testimonial.s1 .text-client-love {
         font-size: 170px;
