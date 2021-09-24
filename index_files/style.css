@@ -1135,7 +1135,7 @@ body.slide-menu-dark .header #mainnav .menu li a:hover {
     position: relative;
 }
 
-@media only screen and (max-width:1600px){
+@media only screen and (max-width:1770px){
     .banner-section.s1{
         padding: 100px 0px 180px;
     }
