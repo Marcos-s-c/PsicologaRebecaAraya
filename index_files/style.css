@@ -1110,13 +1110,13 @@ body.slide-menu-dark .header #mainnav .menu li a:hover {
     padding-bottom: 3.25rem;
 }
 .banner-section .content-text .title {
-    font-size: 90px;
+    font-size: 5.625rem;
     line-height: 100px;
     font-family: 'Archivo Black', sans-serif;
 }
 .banner-section .content-text p {
-    font-size: 17px;
-    line-height: 36px;
+    font-size: 1.0625rem;
+    line-height: 2.25rem;
 }
 .banner-section .content-text .tag {
     font-size: 18px;
@@ -1126,35 +1126,210 @@ body.slide-menu-dark .header #mainnav .menu li a:hover {
     border-bottom-left-radius: 105px;
 }
 .banner-section.s1 {
-    padding: 100px 0px 500px;
+    padding: 11rem 0rem 20rem 0rem;
     background-image: url(../images/section/landing2.png);
     background-position: center;
     background-size: cover;
-    background-position: center bottom;
+    background-position: center right;
     background-repeat: no-repeat;
-    position: relative;
+    /* position: relative; */
 }
 
-@media only screen and (max-width:1770px){
+#header-text{
+    margin-left:-5rem;
+}
+
+#header-parrafo{
+    margin-right:50%;
+}
+
+@media only screen and (max-width:1800px){
     .banner-section.s1{
-        padding: 100px 0px 300px;
+        padding: 8rem 0px 17rem;
+    }
+    #header-text{
+        margin-left:-7rem;
+    }
+}
+
+@media only screen and (max-width:1550px){
+    .banner-section.s1{
+        padding: 5rem 0 12rem ;
+    }
+    #header-text{
+        margin-left:-6rem;
+    }
+    #consultorio-title{
+        padding-top:5rem!important;
+    }
+    #button-header-agendar{
+        padding-bottom: 2rem;
+    }
+     .banner-section .content-text p {
+        font-size: 1rem;
+        line-height: 1.8rem;
+    } 
+
+}
+
+@media only screen and (max-width:1400px){
+    .banner-section.s1{
+        padding: 1rem 0 12rem ;
+    }
+    #header-text{
+        margin-left:-2rem;
+    }
+    #consultorio-title{
+        padding-top:5rem!important;
+    }
+    #button-header-agendar{
+        padding-bottom: 4rem;
+    }
+     .banner-section .content-text p {
+        font-size: 1rem;
+        line-height: 1.8rem;
+    } 
+    #header-parrafo{
+        margin-right:60%;
+    }
+    .banner-section .content-text .title {
+        font-size: 4.625rem;
+        line-height: 100px;
+        font-family: 'Archivo Black', sans-serif;
+    }
+    #consultorio-title{
+        font-size: 4.625rem;
+    }
+}
+@media only screen and (max-width:1280px){
+    .banner-section.s1{
+        padding: 0rem 0 6rem ;
+    }
+    #header-text{
+        margin-left:2rem;
+    }
+    #consultorio-title{
+        padding-top:4rem!important;
+    }
+    #button-header-agendar{
+        padding-bottom: 4rem;
+    }
+     .banner-section .content-text p {
+        font-size: 1rem;
+        line-height: 1.8rem;
+    } 
+    #header-parrafo{
+        margin-right:60%;
+    }
+    .banner-section .content-text .title {
+        font-size: 4.0rem;
+        line-height: 100px;
+        font-family: 'Archivo Black', sans-serif;
+    }
+    #consultorio-title{
+        font-size: 3.625rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .banner-section.s1{
+        padding: 0rem 0 -50rem !important;
+    }
+    .banner-section .content-text p {
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+    } 
+    .banner-section .content-text .title {
+        font-size: 3.2rem;
+        line-height: 100px;
+        font-family: 'Archivo Black', sans-serif;
+        padding-bottom:0rem!important;
+        margin-bottom:0rem!important;
+    }
+    #consultorio-title{
+        font-size: 3.625rem;
     }
 
 }
 
-@media only screen and (max-width:1680px){
+@media only screen and (max-width: 812px) {
     .banner-section.s1{
-        padding: 0px 0px 330px;
+        padding: 0rem 0 -50rem !important;
+    }
+    .banner-section .content-text p {
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+    } 
+    .banner-section .content-text .title {
+        font-size: 3.2rem;
+        line-height: 100px;
+        font-family: 'Archivo Black', sans-serif;
+        padding-bottom:0rem!important;
+        margin-bottom:0rem!important;
+        padding:0rem!important;
+    }
+    #consultorio-title{
+        font-size: 2.625rem;
+    }
+    .cd-headline.clip span{
+        padding:0rem!important;
+    }
+    #header-parrafo{
+        margin-right:60%;
+    }
+    #header-text{
+        margin-left:1rem;
+    }
+
+    .container {
+        max-width: 0;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    #header-parrafo{
+        margin-right:40%;
+    }
+    .banner-section .content-text .title {
+        font-size: 4.2rem;
+        line-height: 90px;
+        font-family: 'Archivo Black', sans-serif;
+        padding-bottom:0rem!important;
+        margin-bottom:0rem!important;
+        padding:0rem!important;
+    }
+    .banner-section .content-text p {
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+    } 
+
+}
+
+@media only screen and (max-width: 570px) {
+    #header-parrafo{
+        margin-right:40%;
+    }
+    .banner-section .content-text .title {
+        font-size: 4.2rem;
+        line-height: 90px;
+        font-family: 'Archivo Black', sans-serif;
+        padding-bottom:0rem!important;
+        margin-bottom:0rem!important;
+        padding:0rem!important;
+    }
+    .banner-section .content-text p {
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+    } 
+    #header-parrafo{
+        width:100%;
+        padding-top:3%;
     }
 
 }
 
-@media only screen and (max-width:1560px){
-    .banner-section.s1{
-        padding: 0px 0px 240px;
-    }
 
-}
+
 
 
 
@@ -1178,11 +1353,11 @@ body.slide-menu-dark .header #mainnav .menu li a:hover {
 .banner-section.s1 .content-text .title span b {
     font-weight: normal;
 }
-.banner-section.s1 .content-text .fl-btn a {
+/* .banner-section.s1 .content-text .fl-btn a {
     padding: 20px 35px 18px 35px;
     background: rgb(251,189,65);
     background: linear-gradient(-135deg, rgba(163,69,251,1) 0%, rgba(251,189,65,1) 100%);
-}
+} */
 .banner-section.s2 {
     background-color: #fbbd41;
     border-bottom-left-radius: 120px;
