@@ -1251,8 +1251,15 @@ body.slide-menu-dark .header #mainnav .menu li a:hover {
     }
 
 }
+#image-header{
+    display:none!important;
+}
+#image-header img{
+    display:none!important;
+}
 
 @media only screen and (max-width: 812px) {
+  
     .banner-section.s1{
         padding: 0rem 0 -50rem !important;
     }
@@ -1288,6 +1295,15 @@ body.slide-menu-dark .header #mainnav .menu li a:hover {
 }
 
 @media only screen and (max-width: 760px) {
+    #image-header{
+        display:block!important;
+    }
+    #image-header img{
+        display:block!important;
+    }
+    
+
+    
     #header-parrafo{
         margin-right:40%;
     }
@@ -1331,10 +1347,23 @@ body.slide-menu-dark .header #mainnav .menu li a:hover {
         width:100%;
         padding-top:3%;
     }
+    #image-header{
+        position:absolute;
+        bottom:-50%;
+        margin-bottom:20%;
+    }
 
+    #image-header img{
+        width:500;
+        height:600;
+    }
+    #testimonial{
+        margin-top:50%;
+    }
 }
 
 
+    
 
 
 

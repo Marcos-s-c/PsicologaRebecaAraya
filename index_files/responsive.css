@@ -738,7 +738,7 @@
         margin: 0 15px;
     }
     .banner-section.s1 {
-        padding: 150px 0 200px;
+        padding: 70px 0 200px;
     }
     .banner-section.s1 .content-text .title span,
     .banner-section.s1 .content-text .title span b {
@@ -746,6 +746,17 @@
         background-size: cover;
     }
 }
+
+@media only screen and (max-width: 1366px){
+.flat-case-study.s1 .background-left {
+    display: none;
+}
+
+@media only screen and (max-width: 1366px){
+.flat-case-study.s1 .col-left {
+    padding-left: 0;
+}
+
 
 /* Mobile Portrait Size */
 @media only screen and (max-width: 479px) {
