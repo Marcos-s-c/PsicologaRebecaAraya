@@ -1232,6 +1232,13 @@ body.slide-menu-dark .header #mainnav .menu li a:hover {
 }
 
 @media only screen and (max-width: 992px) {
+    #personal{
+        display:none;
+    }
+    
+    #center{
+        display:block!important;
+    }
     .banner-section.s1{
         padding: 0rem 0 -50rem !important;
     }
@@ -1251,6 +1258,14 @@ body.slide-menu-dark .header #mainnav .menu li a:hover {
     }
 
 }
+#personal{
+
+}
+
+#center{
+    display:none;
+}
+
 #image-header{
     display:none!important;
 }
@@ -2192,9 +2207,9 @@ body.slide-menu-dark .header #mainnav .menu li a:hover {
     color: #fff;
     background-color: #cca776;
 }
-.timeline > li.timeline-inverted > .timeline-panel {
+/* .timeline > li.timeline-inverted > .timeline-panel {
     float: right;
-}
+} */
 .timeline > li .timeline-panel .f-info {
     font-size: 17px;
     margin-bottom: 8px;
@@ -2222,8 +2237,8 @@ body.slide-menu-dark .header #mainnav .menu li a:hover {
 }
 .timelines .fl-btn a {
     padding: 20px 21px 18px 23px;
-    background: rgb(251,189,65);
-    background: linear-gradient(254deg, rgba(251,189,65,1) 0%, rgba(255,255,255,1) 100%);
+    /* background: rgb(251,189,65);
+    background: linear-gradient(254deg, rgba(251,189,65,1) 0%, rgba(255,255,255,1) 100%); */
 }
 .experience-box .box-inner .f-info {
     font-size: 17px;
